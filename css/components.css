@@ -90,12 +90,8 @@
 .brand-logo {
   width: auto;
   height: 4.75rem;
-  max-width: 15rem;
+  max-width: 18rem;
   object-fit: contain;
-}
-
-.brand span {
-  display: none;
 }
 
 .nav-toggle {
@@ -449,8 +445,8 @@
 
 .footer-logo {
   width: auto;
-  height: 3.2rem;
-  max-width: 14rem;
+  height: 4rem;
+  max-width: 18rem;
   object-fit: contain;
 }
 
@@ -515,10 +511,6 @@
 @media (min-width: 48rem) {
   .top-bar-inner {
     flex-wrap: nowrap;
-  }
-
-  .brand span {
-    display: inline;
   }
 
   .nav-toggle {
