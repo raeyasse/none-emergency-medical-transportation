@@ -1,0 +1,68 @@
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-4));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-animate {
+  opacity: 0;
+  animation: hero-rise var(--duration-slow) var(--ease-standard) forwards;
+}
+
+.hero-delay-1 {
+  animation-delay: 80ms;
+}
+
+.hero-delay-2 {
+  animation-delay: 180ms;
+}
+
+.hero-delay-3 {
+  animation-delay: 280ms;
+}
+
+.hero-delay-4 {
+  animation-delay: 380ms;
+}
+
+.scroll-reveal {
+  opacity: 0.34;
+  transform: translateY(var(--space-3));
+  transition:
+    opacity var(--duration-med) var(--ease-standard),
+    transform var(--duration-med) var(--ease-standard);
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-reveal-delay-1 {
+  transition-delay: 30ms;
+}
+
+.scroll-reveal-delay-2 {
+  transition-delay: 60ms;
+}
+
+.scroll-reveal-delay-3 {
+  transition-delay: 90ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}

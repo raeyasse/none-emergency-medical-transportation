@@ -1,0 +1,64 @@
+:root {
+  --font-display: "Lora", Georgia, serif;
+  --font-body: "Lato", Arial, sans-serif;
+
+  --color-base: #f7f4ef;
+  --color-base-soft: #fffaf2;
+  --color-base-strong: #ece5da;
+  --color-surface: #fffdf8;
+  --color-surface-muted: #f1ebe1;
+  --color-primary: #184e4a;
+  --color-primary-dark: #103936;
+  --color-primary-soft: #dcebe6;
+  --color-utility-bar: #252525;
+  --color-accent: #b9622f;
+  --color-accent-soft: #f0d2bb;
+  --color-text: #24322f;
+  --color-text-muted: #5d6a66;
+  --color-border: #d8cec0;
+  --color-focus: #8f4d22;
+  --color-shadow: rgba(36, 50, 47, 0.14);
+  --color-overlay: rgba(16, 57, 54, 0.94);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 2rem;
+  --space-8: 2.5rem;
+  --space-9: 3rem;
+  --space-10: 4rem;
+  --space-11: 5rem;
+  --space-12: 6rem;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  --container: 72rem;
+  --container-narrow: 54rem;
+  --border-width: 0.0625rem;
+  --focus-width: 0.1875rem;
+  --nav-height: 6rem;
+
+  --font-size-xs: 0.875rem;
+  --font-size-sm: 0.95rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.35rem;
+  --font-size-xl: 1.75rem;
+  --font-size-2xl: 2.35rem;
+  --font-size-3xl: 3rem;
+
+  --line-tight: 1.12;
+  --line-heading: 1.2;
+  --line-body: 1.7;
+
+  --duration-fast: 160ms;
+  --duration-med: 260ms;
+  --duration-slow: 620ms;
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

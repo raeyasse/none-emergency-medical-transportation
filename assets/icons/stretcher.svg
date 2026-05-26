@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">Stretcher</title>
+  <path fill="#DCEBE6" d="M8 24c0-8.8 7.2-16 16-16s16 7.2 16 16-7.2 16-16 16S8 32.8 8 24Z"/>
+  <path fill="none" stroke="#184E4A" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M12 25h24M16 19h19l-4 6H16v-6Zm1 6-3 9m20-9 3 9"/>
+  <path fill="#B9622F" d="M16 37a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm18 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
