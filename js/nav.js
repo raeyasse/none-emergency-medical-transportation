@@ -30,6 +30,7 @@
 
     const updateHeader = () => {
       header.classList.toggle("is-scrolled", window.scrollY > 8);
+      header.classList.toggle("scrolled", window.scrollY > 8);
     };
 
     updateHeader();

@@ -23,7 +23,8 @@
 
   function serviceCard(service) {
     return `
-      <article class="card">
+      <article class="card service-card">
+        <img class="service-card-image" src="${service.image}" alt="${service.imageAlt}" width="600" height="200" loading="lazy">
         <img class="service-icon" src="${service.icon}" alt="${service.alt}" width="48" height="48" loading="lazy">
         <h3>${service.title}</h3>
         <p>${service.description}</p>
@@ -32,7 +33,12 @@
   }
 
   function renderTrustBar(target) {
-    target.innerHTML = site.trustBar.map((item) => `<div class="trust-item">${item}</div>`).join("");
+    target.innerHTML = site.trustBar.map((item) => `
+      <div class="trust-item">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></svg>
+        <span>${item}</span>
+      </div>
+    `).join("");
   }
 
   function renderServices(target) {
@@ -76,7 +82,7 @@
     const main = el("main");
     main.innerHTML = `
       <section class="hero">
-        <div class="container hero-content">
+        <div class="hero-content">
           <p class="eyebrow hero-animate hero-delay-1">${site.hero.eyebrow}</p>
           <h1 class="hero-animate hero-delay-2">${site.hero.title}</h1>
           <p class="intro hero-animate hero-delay-3">${site.hero.text}</p>
@@ -86,8 +92,11 @@
           </div>
           <p class="hero-animate hero-delay-4">${site.hero.note}</p>
         </div>
+        <div class="hero-media">
+          <img src="${site.hero.image}" alt="${site.hero.imageAlt}" width="900" height="760">
+        </div>
       </section>
-      <section class="section booking-form-section">
+      <section class="section trust-section">
         <div class="container trust-bar" id="trust-bar"></div>
       </section>
       <section class="section section-muted">

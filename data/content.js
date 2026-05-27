@@ -46,7 +46,9 @@ const SITE = {
     eyebrow: "Non-emergency medical transportation",
     title: "Reliable rides for care that cannot wait.",
     text: "Door-through-door transportation for medical appointments, therapy visits, discharges, and recurring treatment with patient, respectful drivers.",
-    note: "Same-day requests are welcome when vehicles are available."
+    note: "Same-day requests are welcome when vehicles are available.",
+    image: "images/vehicle.png",
+    imageAlt: "Accessible medical transportation van parked outside a care facility"
   },
   trustBar: [
     "Licensed & Insured",
@@ -60,6 +62,8 @@ const SITE = {
       description: "Comfortable rides for passengers who can walk independently or with light assistance.",
       icon: "assets/icons/ambulatory.svg",
       alt: "Walking cane icon",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&auto=format&fit=crop",
+      imageAlt: "Medical appointment room prepared for ambulatory care",
       who: "Patients traveling to routine appointments, outpatient procedures, therapy, dialysis, or follow-up visits.",
       included: "Curb-to-curb or door-through-door assistance, appointment timing support, clean vehicles, and respectful help getting safely seated.",
       accommodations: "Drivers can assist with walkers, canes, small personal bags, and caregiver ride-alongs when scheduled."
@@ -70,6 +74,8 @@ const SITE = {
       description: "Accessible van service for riders who use manual or transport wheelchairs.",
       icon: "assets/icons/wheelchair.svg",
       alt: "Wheelchair icon",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&auto=format&fit=crop",
+      imageAlt: "Healthcare worker supporting a patient during care",
       who: "Riders who need ramp access, secure wheelchair positioning, and extra boarding time.",
       included: "ADA-conscious boarding, wheelchair securement, lap and shoulder belts, and patient-centered pacing from pickup to drop-off.",
       accommodations: "Please share wheelchair size, pickup access notes, and whether a caregiver will travel with the rider."
@@ -80,6 +86,8 @@ const SITE = {
       description: "Non-emergency stretcher trips for riders who must remain reclined during transport.",
       icon: "assets/icons/stretcher.svg",
       alt: "Stretcher icon",
+      image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&auto=format&fit=crop",
+      imageAlt: "Hospital corridor with stretcher transport equipment",
       who: "Patients leaving facilities, attending specialist visits, or traveling when sitting upright is not medically appropriate.",
       included: "Two-person transfer support, secure stretcher transport, coordination with facility staff, and careful trip planning.",
       accommodations: "Stretcher rides require advance scheduling so we can confirm staffing, access, and medical transport details."

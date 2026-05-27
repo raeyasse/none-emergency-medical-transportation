@@ -52,6 +52,7 @@ textarea {
 
 button {
   cursor: pointer;
+  font-family: var(--font-body);
 }
 
 :focus-visible {
