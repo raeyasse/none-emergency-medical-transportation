@@ -182,16 +182,6 @@
   color: var(--color-surface);
 }
 
-.nav-link.is-active::after {
-  position: absolute;
-  right: var(--space-4);
-  bottom: var(--space-2);
-  left: var(--space-4);
-  height: 0.2rem;
-  border-radius: var(--radius-xs);
-  background: var(--color-amber);
-  content: "";
-}
 
 .button {
   display: inline-flex;
