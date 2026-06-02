@@ -1,8 +1,8 @@
 const SITE = {
   company: {
     name: "Care2Go Transportation LLC",
-    phone: "(919) 567-8635",
-    phoneHref: "tel:+19195678635",
+    phone: "(919) 520-6058",
+    phoneHref: "tel:+(919) 520-6058",
     email: "info@care2go.com",
     emailHref: "mailto:info@care2go.com",
     serviceArea: "Durham, NC",
