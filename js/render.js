@@ -21,11 +21,10 @@
     return `<a class="button ${type}" href="${href}">${label}</a>`;
   }
 
-  function serviceCard(service) {
+  function serviceCard(service, index) {
     return `
-      <article class="card service-card">
+      <article class="card service-card service-card-reveal service-card-delay-${index + 1}">
         <img class="service-card-image" src="${service.image}" alt="${service.imageAlt}" width="600" height="200" loading="lazy">
-        <img class="service-icon" src="${service.icon}" alt="${service.alt}" width="48" height="48" loading="lazy">
         <h3>${service.title}</h3>
         <p>${service.description}</p>
       </article>
@@ -42,7 +41,7 @@
   }
 
   function renderServices(target) {
-    target.innerHTML = site.services.map(serviceCard).join("");
+    target.innerHTML = site.services.map((service, index) => serviceCard(service, index)).join("");
   }
 
   function renderFaq(target) {
@@ -151,7 +150,6 @@
               <article class="service-detail" id="${service.id}">
                 <div class="feature-row">
                   <div>
-                    <img class="service-icon" src="${service.icon}" alt="${service.alt}" width="48" height="48" loading="lazy">
                     <h3>${service.title}</h3>
                     <p>${service.description}</p>
                   </div>

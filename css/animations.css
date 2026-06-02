@@ -56,6 +56,32 @@
   transition-delay: 90ms;
 }
 
+.service-card-reveal.scroll-reveal {
+  opacity: 0;
+  transform: translateY(var(--space-7));
+  transition:
+    opacity var(--duration-slow) var(--ease-standard),
+    transform var(--duration-slow) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard);
+}
+
+.service-card-reveal.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-card-delay-1.scroll-reveal {
+  transition-delay: 80ms;
+}
+
+.service-card-delay-2.scroll-reveal {
+  transition-delay: 180ms;
+}
+
+.service-card-delay-3.scroll-reveal {
+  transition-delay: 280ms;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

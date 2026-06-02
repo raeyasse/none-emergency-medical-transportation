@@ -1,25 +1,31 @@
 :root {
-  --font-display: "Lora", Georgia, serif;
-  --font-body: "Lato", Arial, sans-serif;
+  --font-display: "Plus Jakarta Sans", Arial, sans-serif;
+  --font-body: "Plus Jakarta Sans", Arial, sans-serif;
 
-  --color-base: #f7f4ef;
-  --color-base-soft: #f7f4ef;
-  --color-base-strong: #e8e1d6;
-  --color-surface: #ffffff;
-  --color-surface-muted: #f7f4ef;
-  --color-primary: #1b4d5c;
-  --color-primary-dark: #143a45;
-  --color-primary-soft: #d7e5e8;
-  --color-utility-bar: var(--color-primary);
-  --color-accent: #d4853a;
-  --color-accent-soft: #f3d7bd;
-  --color-text: #1a1a2e;
-  --color-muted: #6b7280;
+  --color-navy: #1B4B8A;
+  --color-teal: #2BA4C8;
+  --color-amber: #E8941A;
+  --color-teal-tint: #E6F6FB;
+  --color-teal-border: #C8E9F5;
+  --color-amber-tint: #FEF3E2;
+
+  --color-base: #EBF1F9;
+  --color-surface: #FFFFFF;
+  --color-primary: var(--color-navy);
+  --color-primary-dark: var(--color-navy);
+  --color-primary-soft: var(--color-teal-tint);
+  --color-utility-bar: var(--color-navy);
+  --color-accent: var(--color-teal);
+  --color-accent-soft: var(--color-amber);
+  --color-cta: var(--color-amber);
+  --color-cta-soft: var(--color-amber-tint);
+  --color-text: #0D2A50;
+  --color-muted: #587099;
   --color-text-muted: var(--color-muted);
-  --color-border: #d8cec0;
-  --color-focus: #8f4d22;
-  --color-shadow: rgba(0, 0, 0, 0.12);
-  --color-overlay: rgba(27, 77, 92, 0.15);
+  --color-border: var(--color-teal-border);
+  --color-focus: var(--color-amber);
+  --color-shadow: rgba(13, 42, 80, 0.12);
+  --color-overlay: rgba(27, 75, 138, 0.15);
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;

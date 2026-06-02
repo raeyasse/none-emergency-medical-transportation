@@ -85,11 +85,21 @@
   order: -1;
 }
 
+.hero-media::before,
 .hero-media::after {
   position: absolute;
   inset: 0;
-  background: var(--color-overlay);
   content: "";
+}
+
+.hero-media::before {
+  z-index: 1;
+  background: linear-gradient(180deg, var(--color-base) 0%, rgba(235, 241, 249, 0) 42%);
+  pointer-events: none;
+}
+
+.hero-media::after {
+  background: var(--color-overlay);
 }
 
 .hero-media img {
@@ -97,6 +107,7 @@
   height: 100%;
   min-height: inherit;
   object-fit: cover;
+  object-position: 68% center;
 }
 
 .hero-actions,
@@ -174,5 +185,9 @@
   .hero-media {
     min-height: 38rem;
     order: 0;
+  }
+
+  .hero-media::before {
+    background: linear-gradient(90deg, var(--color-base) 0%, rgba(235, 241, 249, 0.92) 16%, rgba(235, 241, 249, 0) 42%);
   }
 }

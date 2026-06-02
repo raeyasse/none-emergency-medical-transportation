@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
   <title id="title">Wheelchair</title>
-  <path fill="#DCEBE6" d="M8 24c0-8.8 7.2-16 16-16s16 7.2 16 16-7.2 16-16 16S8 32.8 8 24Z"/>
-  <path fill="none" stroke="#184E4A" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M22 13h7M22 13v11h9l5 8M20 28a7 7 0 1 1-5-6.7"/>
-  <path fill="#B9622F" d="M18 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+  <path fill="#1B4B8A" d="M8 24c0-8.8 7.2-16 16-16s16 7.2 16 16-7.2 16-16 16S8 32.8 8 24Z"/>
+  <path fill="none" stroke="#E8941A" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M22 13h7M22 13v11h9l5 8M20 28a7 7 0 1 1-5-6.7"/>
+  <path fill="#E8941A" d="M18 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
 </svg>

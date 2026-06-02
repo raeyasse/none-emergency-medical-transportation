@@ -69,9 +69,6 @@
     footer.innerHTML = `
       <div class="container footer-grid">
         <div class="footer-brand-column">
-          <a class="footer-logo-link" href="index.html" aria-label="${site.labels.homeAria}">
-            <img class="footer-logo" src="images/care2go%20main%20logo.png" alt="" width="360" height="110" loading="lazy">
-          </a>
           <p>${site.footer.aboutText}</p>
           <p>${site.footer.emergency}</p>
         </div>

@@ -47,7 +47,7 @@ const SITE = {
     title: "Reliable rides for care that cannot wait.",
     text: "Door-through-door transportation for medical appointments, therapy visits, discharges, and recurring treatment with patient, respectful drivers.",
     note: "Same-day requests are welcome when vehicles are available.",
-    image: "images/vehicle.png",
+    image: "images/customer.jpg",
     imageAlt: "Accessible medical transportation van parked outside a care facility"
   },
   trustBar: [
