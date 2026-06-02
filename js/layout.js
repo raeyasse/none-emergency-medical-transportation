@@ -49,7 +49,7 @@
       </div>
       <div class="container nav-shell">
         <a class="brand" href="index.html" aria-label="${site.labels.homeAria}">
-          <img class="brand-logo" src="images/care2go%20full%20logo.png" alt="" width="360" height="110">
+          <img class="brand-logo" src="images/care2go%20main%20logo.png" alt="" width="360" height="110">
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="${site.labels.menuOpen}">
           <span class="nav-toggle-lines" aria-hidden="true"></span>
@@ -70,7 +70,7 @@
       <div class="container footer-grid">
         <div class="footer-brand-column">
           <a class="footer-logo-link" href="index.html" aria-label="${site.labels.homeAria}">
-            <img class="footer-logo" src="images/care2go%20full%20logo.png" alt="" width="360" height="110" loading="lazy">
+            <img class="footer-logo" src="images/care2go%20main%20logo.png" alt="" width="360" height="110" loading="lazy">
           </a>
           <p>${site.footer.aboutText}</p>
           <p>${site.footer.emergency}</p>
